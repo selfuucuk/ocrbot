@@ -1,4 +1,5 @@
 welcome_text = 'Merhaba bohohohohohohohohoyt'
+help_text = 'Zaten bir boka yaramıyorum ne yardımı istiyorsun 🐺'
 reply_to_text_message = 'Bana resim at ulan!'
 donate_text = 'Sanki paran var mk cocu'
 no_text_found = 'Çeviremedim'
