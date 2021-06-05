@@ -28,9 +28,12 @@ def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
     update.message.reply_text(constants.welcome_text)
 
+def help(update: Update, context: CallbackContext) -> None:
+    """Send a message when the command /help is issued."""
+    update.message.reply_text(constants.help_text)
 
 def donate(update: Update, context: CallbackContext) -> None:
-    """Send a message when the command /help is issued."""
+    """Send a message when the command /donate is issued."""
     update.message.reply_text(constants.donate_text, parse_mode=ParseMode.MARKDOWN)
 
 
