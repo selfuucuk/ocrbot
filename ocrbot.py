@@ -74,6 +74,7 @@ def main():
 
     # on different commands - answer in Telegram
     dispatcher.add_handler(CommandHandler("start", start))
+    dispatcher.add_handler(CommandHandler("help", help))
     dispatcher.add_handler(CommandHandler("donate", donate))
 
     # on noncommand i.e message - echo the message on Telegram
